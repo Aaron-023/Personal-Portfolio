@@ -1,6 +1,6 @@
 # Personal Portfolio - A Codecademy Project
 
-##This project is to build my own personal portfolio, it must follow the below criteria:
+## This project is to build my own personal portfolio, it must follow the below criteria:
 
 - Build a website using HTML, CSS
 - Add at least one interactive feature using JavaScript
