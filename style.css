@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+body {
+    margin: 7.5rem 8rem;
+}
+#developer-name {
+    font-size: 5rem;
+}
+/* #developer-name:hover {
+    font-size: 5.5rem;
+} */
+h1, h2, h3, p, li, a, #developer-name {
+    font-family: 'Orbitron', sans-serif;
+}
+p {
+    font-size: 1.15em;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+nav li {
+    list-style-type: none;
+    display: inline;
+}
+ul {
+    line-height: 2.8em;
+}
+
+article {
+    margin-bottom: 2.5em;
+}
+
+/* transition in */
+article:hover h2:first-child {
+    color: khaki;
+    font-size: 2em;
+    transition: all ease-in-out 0.4s;
+}
+article:hover i {
+    color: khaki;
+    --fa-animation-duration: 0.4s;
+    /* transition: all 0.4s; */
+}
+article:hover li {
+    font-size: 1.3em;
+    transition: all 0.4s;
+}
+#my-projects:hover h3 {
+    color: rgb(125, 226, 120);
+    font-size: 1.25em;
+    transition: all ease-in-out 0.4s;
+}
+#my-projects:hover a {
+    color: rgb(125, 226, 120);
+    font-size: 1.35em;
+    transition: all ease-in-out 0.8s;
+}
+
+ /* transition out */
+article:not(:hover) h2:first-child {
+    transition: all 0.4s;
+}
+article:not(:hover) li {
+    transition: all 0.4s;
+}
+#my-projects:not(:hover) h3 {
+    transition: all ease-in-out 0.4s;
+}
+#my-projects:not(:hover) a {
+    transition: all ease-in-out 0.4s;
+}
