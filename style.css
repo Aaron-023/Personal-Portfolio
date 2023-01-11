@@ -4,7 +4,7 @@
     color: white;
 }
 body {
-    margin: 7.5rem 8rem;
+    margin: 2.5rem 8rem;
 }
 #developer-name {
     font-size: 5rem;
@@ -16,7 +16,7 @@ h1, h2, h3, p, li, a, #developer-name {
     font-family: 'Orbitron', sans-serif;
 }
 p {
-    font-size: 1.15em;
+    font-size: 1em;
 }
 header {
     display: flex;
@@ -28,11 +28,11 @@ nav li {
     list-style-type: none;
     display: inline;
 }
-ul {
+ul.fa-ul {
     line-height: 2.8em;
 }
 ul li {
-    padding-left: 5px;
+    padding-left: 20px;
 }
 
 article {
@@ -84,3 +84,20 @@ article:not(:hover) li {
 i {
     padding: 5px;
 } */
+
+footer ul{
+    font-size: 1em;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 75px;
+}
+footer li {
+    padding: 5px;
+    margin: 5px;
+}
+footer i {
+    margin: 7px;
+}
