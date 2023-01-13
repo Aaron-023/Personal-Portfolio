@@ -13,3 +13,5 @@
 As website styling is my lesser favourite task, I've decided to opt for a clean dark style, which naturally led to questioning how I would draw a user to specific project sections and links. 
 
 I've opted for the use of colour, icons, and transitions as a user hovers over various elements of the site.
+
+Additionally, as part of the challenge a single element required interactivity via JavaScript. I've included a toggle between dark/light styling to suit user preference.
